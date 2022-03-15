@@ -1,13 +1,14 @@
 import 'dart:async';
 import 'dart:math';
 
+import 'package:analog_clock/Constants/constants.dart';
+import 'package:analog_clock/Constants/size_config.dart';
 import 'package:analog_clock/models/my_theme_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
 
-import '../../constants.dart';
-import '../../size_config.dart';
+
 import 'clock_painter.dart';
 
 class Clock extends StatefulWidget {

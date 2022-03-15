@@ -37,6 +37,7 @@ dependencies:
   google_fonts: ^2.3.1
   flutter_svg: ^1.0.3
   provider: ^6.0.2
+  google_mobile_ads: ^1.1.0
 
 dev_dependencies:
   flutter_test:

@@ -1,9 +1,15 @@
+import 'package:analog_clock/Constants/size_config.dart';
 import 'package:analog_clock/screens/components/body.dart';
-import 'package:analog_clock/size_config.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     // we have to call this on our starting page
